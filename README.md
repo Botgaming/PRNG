@@ -21,6 +21,6 @@ Test sequence for the suite was produced by the PRNG and contained 1 000 000 000
 A module to generate test sequence is contained in **_random.js_** file.
 
 ### PRNG Test Results
-**Test results** of the Dieharder suite are represented in: <br />
+Test results of the Dieharder suite are represented in: <br />
 https://github.com/Botgaming/PRNG/blob/master/test-results/sequence.sha512.1000000000.4294967295.results.txt, <br />
-where it could be seen that all tests were passed.
+where it could be seen that all tests were **passed**.
