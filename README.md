@@ -1,5 +1,5 @@
 # PRNG
-This Pseudo Random Number Generator (PRNG) passed all tests which are represented by Dieharder Version 3.31.1: a Random Number Test Suite (Robert G. Brown (rgb), Dirk Eddelbuettel, David Bauer). The one implements main diehard and NIST tests. For more information about Dieharder see http://webhome.phy.duke.edu/~rgb/General/dieharder.php. Test results are represented in:
+This Pseudo Random Number Generator (PRNG) passed all tests which are represented by Dieharder Version 3.31.1: a Random Number Test Suite (Robert G. Brown (rgb), Dirk Eddelbuettel, David Bauer). The one implements main diehard and NIST tests. For more information about Dieharder see http://webhome.phy.duke.edu/~rgb/General/dieharder.php. **Test results** are represented in:
 
 https://github.com/Botgaming/PRNG/blob/master/test-results/sequence.sha512.1000000000.4294967295.results.txt.
 
@@ -17,6 +17,6 @@ PRNG is based on SHA-512 hash algorithm. Target pseudorandom value is calculated
 * **_playerWallet_** - is an ethereum wallet address (20 bytes sequence which is represented as 40 symbolic hexadecimal string). Example: 0x6a0fe2de79f61f2fd2f6caf528e4dec6ff8ef90e;
 * **_nonce_** - is a natural number, unique inside one game session. It is increased by 1 from 1 for every request for pseudorandom number inside one game session.
 
-PRNG implementation is contained in _generators/generator.js_ file.
+PRNG implementation is contained in **_generators/generator.js_** file.
 
-A module to generate test sequence is contained in _random.js_ file.
+A module to generate test sequence is contained in **_random.js_** file.
