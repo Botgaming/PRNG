@@ -1,0 +1,193 @@
+[~ ]$ dieharder -a -g 201 -f sequence.sha512.1000000000.4294967295.bin
+#=============================================================================#
+#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
+#=============================================================================#
+   rng_name    |           filename             |rands/second|
+ file_input_raw|sequence.sha512.1000000000.4294967295.bin|  2.87e+07  |
+#=============================================================================#
+        test_name   |ntup| tsamples |psamples|  p-value |Assessment
+#=============================================================================#
+   diehard_birthdays|   0|       100|     100|0.28833576|  PASSED
+      diehard_operm5|   0|   1000000|     100|0.79100659|  PASSED
+  diehard_rank_32x32|   0|     40000|     100|0.98893325|  PASSED
+    diehard_rank_6x8|   0|    100000|     100|0.76371167|  PASSED
+   diehard_bitstream|   0|   2097152|     100|0.60229700|  PASSED
+        diehard_opso|   0|   2097152|     100|0.19615923|  PASSED
+        diehard_oqso|   0|   2097152|     100|0.23874498|  PASSED
+         diehard_dna|   0|   2097152|     100|0.64231230|  PASSED
+diehard_count_1s_str|   0|    256000|     100|0.76190690|  PASSED
+diehard_count_1s_byt|   0|    256000|     100|0.07413523|  PASSED
+ diehard_parking_lot|   0|     12000|     100|0.77403241|  PASSED
+    diehard_2dsphere|   2|      8000|     100|0.92069327|  PASSED
+    diehard_3dsphere|   3|      4000|     100|0.26224951|  PASSED
+# The file file_input_raw was rewound 1 times
+     diehard_squeeze|   0|    100000|     100|0.92585755|  PASSED
+# The file file_input_raw was rewound 1 times
+        diehard_sums|   0|       100|     100|0.02403830|  PASSED
+# The file file_input_raw was rewound 1 times
+        diehard_runs|   0|    100000|     100|0.01993006|  PASSED
+        diehard_runs|   0|    100000|     100|0.48371559|  PASSED
+# The file file_input_raw was rewound 1 times
+       diehard_craps|   0|    200000|     100|0.79557747|  PASSED
+       diehard_craps|   0|    200000|     100|0.97474188|  PASSED
+# The file file_input_raw was rewound 3 times
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.50594396|  PASSED
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.17275386|  PASSED
+# The file file_input_raw was rewound 3 times
+         sts_monobit|   1|    100000|     100|0.98363263|  PASSED
+# The file file_input_raw was rewound 3 times
+            sts_runs|   2|    100000|     100|0.80722601|  PASSED
+# The file file_input_raw was rewound 3 times
+          sts_serial|   1|    100000|     100|0.81574399|  PASSED
+          sts_serial|   2|    100000|     100|0.19915727|  PASSED
+          sts_serial|   3|    100000|     100|0.24899243|  PASSED
+          sts_serial|   3|    100000|     100|0.96976757|  PASSED
+          sts_serial|   4|    100000|     100|0.16599263|  PASSED
+          sts_serial|   4|    100000|     100|0.77631133|  PASSED
+          sts_serial|   5|    100000|     100|0.77364216|  PASSED
+          sts_serial|   5|    100000|     100|0.97485824|  PASSED
+          sts_serial|   6|    100000|     100|0.61959308|  PASSED
+          sts_serial|   6|    100000|     100|0.89247439|  PASSED
+          sts_serial|   7|    100000|     100|0.97714949|  PASSED
+          sts_serial|   7|    100000|     100|0.98116132|  PASSED
+          sts_serial|   8|    100000|     100|0.42325542|  PASSED
+          sts_serial|   8|    100000|     100|0.42117852|  PASSED
+          sts_serial|   9|    100000|     100|0.82519432|  PASSED
+          sts_serial|   9|    100000|     100|0.21432281|  PASSED
+          sts_serial|  10|    100000|     100|0.73189480|  PASSED
+          sts_serial|  10|    100000|     100|0.98222883|  PASSED
+          sts_serial|  11|    100000|     100|0.49293008|  PASSED
+          sts_serial|  11|    100000|     100|0.65227780|  PASSED
+          sts_serial|  12|    100000|     100|0.12531569|  PASSED
+          sts_serial|  12|    100000|     100|0.16086064|  PASSED
+          sts_serial|  13|    100000|     100|0.90349265|  PASSED
+          sts_serial|  13|    100000|     100|0.27908785|  PASSED
+          sts_serial|  14|    100000|     100|0.75090084|  PASSED
+          sts_serial|  14|    100000|     100|0.78585189|  PASSED
+          sts_serial|  15|    100000|     100|0.50289220|  PASSED
+          sts_serial|  15|    100000|     100|0.91676987|  PASSED
+          sts_serial|  16|    100000|     100|0.06282625|  PASSED
+          sts_serial|  16|    100000|     100|0.74702678|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   1|    100000|     100|0.10422028|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   2|    100000|     100|0.98579850|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   3|    100000|     100|0.32949865|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   4|    100000|     100|0.48227972|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   5|    100000|     100|0.96340964|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   6|    100000|     100|0.29593254|  PASSED
+# The file file_input_raw was rewound 3 times
+         rgb_bitdist|   7|    100000|     100|0.82288445|  PASSED
+# The file file_input_raw was rewound 4 times
+         rgb_bitdist|   8|    100000|     100|0.80715641|  PASSED
+# The file file_input_raw was rewound 4 times
+         rgb_bitdist|   9|    100000|     100|0.64362241|  PASSED
+# The file file_input_raw was rewound 4 times
+         rgb_bitdist|  10|    100000|     100|0.71112648|  PASSED
+# The file file_input_raw was rewound 4 times
+         rgb_bitdist|  11|    100000|     100|0.84252354|  PASSED
+# The file file_input_raw was rewound 4 times
+         rgb_bitdist|  12|    100000|     100|0.94625940|  PASSED
+# The file file_input_raw was rewound 4 times
+rgb_minimum_distance|   2|     10000|    1000|0.53218916|  PASSED
+# The file file_input_raw was rewound 4 times
+rgb_minimum_distance|   3|     10000|    1000|0.38321768|  PASSED
+# The file file_input_raw was rewound 4 times
+rgb_minimum_distance|   4|     10000|    1000|0.25074544|  PASSED
+# The file file_input_raw was rewound 4 times
+rgb_minimum_distance|   5|     10000|    1000|0.03816666|  PASSED
+# The file file_input_raw was rewound 5 times
+    rgb_permutations|   2|    100000|     100|0.80161602|  PASSED
+# The file file_input_raw was rewound 5 times
+    rgb_permutations|   3|    100000|     100|0.65596085|  PASSED
+# The file file_input_raw was rewound 5 times
+    rgb_permutations|   4|    100000|     100|0.77899322|  PASSED
+# The file file_input_raw was rewound 5 times
+    rgb_permutations|   5|    100000|     100|0.06386742|  PASSED
+# The file file_input_raw was rewound 5 times
+      rgb_lagged_sum|   0|   1000000|     100|0.75420121|  PASSED
+# The file file_input_raw was rewound 5 times
+      rgb_lagged_sum|   1|   1000000|     100|0.84108139|  PASSED
+# The file file_input_raw was rewound 5 times
+      rgb_lagged_sum|   2|   1000000|     100|0.36872605|  PASSED
+# The file file_input_raw was rewound 6 times
+      rgb_lagged_sum|   3|   1000000|     100|0.15379079|  PASSED
+# The file file_input_raw was rewound 6 times
+      rgb_lagged_sum|   4|   1000000|     100|0.83780184|  PASSED
+# The file file_input_raw was rewound 7 times
+      rgb_lagged_sum|   5|   1000000|     100|0.06322203|  PASSED
+# The file file_input_raw was rewound 7 times
+      rgb_lagged_sum|   6|   1000000|     100|0.58305207|  PASSED
+# The file file_input_raw was rewound 8 times
+      rgb_lagged_sum|   7|   1000000|     100|0.94350199|  PASSED
+# The file file_input_raw was rewound 9 times
+      rgb_lagged_sum|   8|   1000000|     100|0.15275080|  PASSED
+# The file file_input_raw was rewound 10 times
+      rgb_lagged_sum|   9|   1000000|     100|0.04319545|  PASSED
+# The file file_input_raw was rewound 11 times
+      rgb_lagged_sum|  10|   1000000|     100|0.44345753|  PASSED
+# The file file_input_raw was rewound 12 times
+      rgb_lagged_sum|  11|   1000000|     100|0.91804854|  PASSED
+# The file file_input_raw was rewound 14 times
+      rgb_lagged_sum|  12|   1000000|     100|0.30325282|  PASSED
+# The file file_input_raw was rewound 15 times
+      rgb_lagged_sum|  13|   1000000|     100|0.15343426|  PASSED
+# The file file_input_raw was rewound 17 times
+      rgb_lagged_sum|  14|   1000000|     100|0.91831375|  PASSED
+# The file file_input_raw was rewound 18 times
+      rgb_lagged_sum|  15|   1000000|     100|0.86939736|  PASSED
+# The file file_input_raw was rewound 20 times
+      rgb_lagged_sum|  16|   1000000|     100|0.07402795|  PASSED
+# The file file_input_raw was rewound 22 times
+      rgb_lagged_sum|  17|   1000000|     100|0.86541268|  PASSED
+# The file file_input_raw was rewound 24 times
+      rgb_lagged_sum|  18|   1000000|     100|0.56272833|  PASSED
+# The file file_input_raw was rewound 26 times
+      rgb_lagged_sum|  19|   1000000|     100|0.20873336|  PASSED
+# The file file_input_raw was rewound 28 times
+      rgb_lagged_sum|  20|   1000000|     100|0.98467249|  PASSED
+# The file file_input_raw was rewound 30 times
+      rgb_lagged_sum|  21|   1000000|     100|0.90247240|  PASSED
+# The file file_input_raw was rewound 32 times
+      rgb_lagged_sum|  22|   1000000|     100|0.98580634|  PASSED
+# The file file_input_raw was rewound 35 times
+      rgb_lagged_sum|  23|   1000000|     100|0.50533574|  PASSED
+# The file file_input_raw was rewound 37 times
+      rgb_lagged_sum|  24|   1000000|     100|0.01933174|  PASSED
+# The file file_input_raw was rewound 40 times
+      rgb_lagged_sum|  25|   1000000|     100|0.98823392|  PASSED
+# The file file_input_raw was rewound 42 times
+      rgb_lagged_sum|  26|   1000000|     100|0.00711187|  PASSED
+# The file file_input_raw was rewound 45 times
+      rgb_lagged_sum|  27|   1000000|     100|0.18940056|  PASSED
+# The file file_input_raw was rewound 48 times
+      rgb_lagged_sum|  28|   1000000|     100|0.31429913|  PASSED
+# The file file_input_raw was rewound 51 times
+      rgb_lagged_sum|  29|   1000000|     100|0.39254854|  PASSED
+# The file file_input_raw was rewound 54 times
+      rgb_lagged_sum|  30|   1000000|     100|0.30292867|  PASSED
+# The file file_input_raw was rewound 57 times
+      rgb_lagged_sum|  31|   1000000|     100|0.15711613|  PASSED
+# The file file_input_raw was rewound 61 times
+      rgb_lagged_sum|  32|   1000000|     100|0.91622229|  PASSED
+# The file file_input_raw was rewound 61 times
+     rgb_kstest_test|   0|     10000|    1000|0.91483141|  PASSED
+# The file file_input_raw was rewound 61 times
+     dab_bytedistrib|   0|  51200000|       1|0.80668717|  PASSED
+# The file file_input_raw was rewound 61 times
+             dab_dct| 256|     50000|       1|0.36258065|  PASSED
+Preparing to run test 207.  ntuple = 0
+# The file file_input_raw was rewound 61 times
+        dab_filltree|  32|  15000000|       1|0.47169505|  PASSED
+        dab_filltree|  32|  15000000|       1|0.15792741|  PASSED
+Preparing to run test 208.  ntuple = 0
+# The file file_input_raw was rewound 61 times
+       dab_filltree2|   0|   5000000|       1|0.86918805|  PASSED
+       dab_filltree2|   1|   5000000|       1|0.37434427|  PASSED
+Preparing to run test 209.  ntuple = 0
+# The file file_input_raw was rewound 61 times
+        dab_monobit2|  12|  65000000|       1|0.74027530|  PASSED
