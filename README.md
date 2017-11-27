@@ -1,5 +1,7 @@
 # PRNG
-This Pseudo Random Number Generator (PRNG) passed all tests which are represented by Dieharder Version 3.31.1: a Random Number Test Suite (Robert G. Brown (rgb), Dirk Eddelbuettel, David Bauer). The one implements main diehard and NIST tests. For more information about Dieharder see http://webhome.phy.duke.edu/~rgb/General/dieharder.php. Test results is represented in https://github.com/Botgaming/PRNG/blob/master/test-results/sequence.sha512.1000000000.4294967295.results.txt.
+This Pseudo Random Number Generator (PRNG) passed all tests which are represented by Dieharder Version 3.31.1: a Random Number Test Suite (Robert G. Brown (rgb), Dirk Eddelbuettel, David Bauer). The one implements main diehard and NIST tests. For more information about Dieharder see http://webhome.phy.duke.edu/~rgb/General/dieharder.php. Test results are represented in:
+
+https://github.com/Botgaming/PRNG/blob/master/test-results/sequence.sha512.1000000000.4294967295.results.txt.
 
 PRNG is based on SHA-512 hash algorithm. Target pseudorandom value is calculated in such way:
 
