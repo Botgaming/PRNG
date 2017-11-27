@@ -16,3 +16,7 @@ PRNG is based on SHA-512 hash algorithm. Target pseudorandom value is calculated
 * **_clientSeed_** - is an alphanumeric value with length from 4 to 32 symbols. This value may (or may not) be changed on every pseudorandom number;
 * **_playerWallet_** - is an ethereum wallet address (20 bytes sequence which is represented as 40 symbolic hexadecimal string). Example: 0x6a0fe2de79f61f2fd2f6caf528e4dec6ff8ef90e;
 * **_nonce_** - is a natural number, unique inside one game session. It is increased by 1 from 1 for every request for pseudorandom number inside one game session.
+
+PRNG implementation is contained in _generators/generator.js_ file.
+
+A module to generate test sequence is contained in _random.js_ file.
