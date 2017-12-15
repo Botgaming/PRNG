@@ -1,0 +1,13 @@
+*/target/*
+*/bin/*
+*/.settings/*
+*.project
+*.classpath
+*.prefs
+*.orig
+*/*.log
+node_modules/*
+test-results/*
+.idea/*
+*.iml
+/out/*
