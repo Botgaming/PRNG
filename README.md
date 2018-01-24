@@ -8,7 +8,7 @@ The Pseudo Random Number Generator (PRNG) is based on SHA-512 hash algorithm. Ta
 * **_maxValue_** - is a natural number, which is an upper bound of target pseudorandom number (in our application it is usually has no more 100 value);
 * **_int()_** – is a converting operation from hexadecimal string to integer value;
 * **_sha512()_** – is the SHA-512 hash calculation operation from the target string (serverSeed + clientSeed + playerWallet + nonce);
-* **_serverSeed_** – is a UUID (Universally Unique Identifier - 32 symbolic string without dashes). This value is generated for every new game session. It is constant inside last one, but unique through all other game sessions;
+* **_serverSeed_** – is a symbolic string, which is initialized with UUID (Universally Unique Identifier - 32 symbolic string without dashes) every first game cycle of the game session. Inside every successive game cycle in the same game session serverSeed will be initialized with sha512 function from previous serverSeed value (sha512(serverSeed)). Game session is considered as an interval between a player starts and ends a game. Game cycle is considered as distribution of card deck (decks) for card games and as one spin for slot games;
 * **_clientSeed_** - is an alphanumeric value with length from 4 to 32 symbols. This value may (or may not by a player desire) be changed on every pseudorandom number;
 * **_playerWallet_** - is an ethereum wallet address (20 bytes sequence which is represented as 42 symbolic hexadecimal string with 0x prefix). Example: 0x6a0fe2de79f61f2fd2f6caf528e4dec6ff8ef90e;
 * **_nonce_** - is a natural number, inside one game session it is unique and every next value is more than previous one (next value may equal to incremented previous one);
