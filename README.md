@@ -11,9 +11,9 @@ The Pseudo Random Number Generator (PRNG) is based on SHA-512 hash algorithm. Ta
 * **_serverSeed_** – is a symbolic string, which is initialized with UUID (Universally Unique Identifier - 32 symbolic string without dashes) every first game cycle of the game session. Inside every successive game cycle in the same game session serverSeed will be initialized with sha512 function from previous serverSeed value (sha512(serverSeed)). Game session is considered as an interval between a player starts and ends a game. Game cycle is considered as distribution of card deck (decks) for card games and as one spin for slot games;
 * **_clientSeed_** - is an alphanumeric value with length from 4 to 32 symbols. This value may (or may not by a player desire) be changed on every pseudorandom number;
 * **_playerWallet_** - is an ethereum wallet address (20 bytes sequence which is represented as 42 symbolic hexadecimal string with 0x prefix). Example: 0x6a0fe2de79f61f2fd2f6caf528e4dec6ff8ef90e;
-* **_nonce_** - is a natural number, inside one game session it is unique and every next value is more than previous one (next value may equal to incremented previous one);
+* **_nonce_** - is a natural number, inside one game cycle it is unique and every next value is more than previous one (next value may equal to incremented previous one);
 
-In general terms serverSeed is required to avoid a prediction of generator result from a player side, clientSeed - to exclude possibility of influence on open source generator result from a server, playerWallet provides uniqueness of generated sequences between different players (for multiple players games) through the same game session, nonce provides uniqueness of the generator bias (seed) through single game session in cases when clientSeed is not changed "enough".
+In general terms serverSeed is required to avoid a prediction of generator result from a player side, clientSeed - to exclude possibility of influence on open source generator result from a server, playerWallet provides uniqueness of generated sequences between different players (for multiple players games) through the same game session, nonce provides uniqueness of the generator bias (seed) through single game cycle in cases when clientSeed is not changed "enough".
 
 PRNG implementation is contained in **_generators/generator.js_** file.
 
